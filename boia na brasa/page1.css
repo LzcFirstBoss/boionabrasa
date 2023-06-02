@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body{
+    background-color: #fff5e8;
+    overflow-x: hidden;
+}
+
+header{
+    position: relative;
+    text-align: center;
+}
+
+header h1{
+    color: #e22424;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mid h2{
+    position: relative;
+    top: 120px;
+    right: 100px;
+    color: #e22424;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.mid p{
+    width: 20%;
+    position: relative;
+    left: 700px;
+    top: -30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#h1{
+    font-size: 35px;
+    
+}
+
+.mid h1{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+    right: 70px;
+}
+
+.mid{
+    position: relative;
+    text-align: center;
+}    
+
+.textos{
+    position: relative;
+    top: -150px;
+}
+
+#linha{
+    height: 200px;
+    border-left: 2px solid #e22424;
+    padding: 20px;
+    left: 650px;
+    position: relative;
+    top: 50px;
+}
+
+nav li{
+    list-style: none;
+    position: relative;
+    left: 1500px;
+    top: -600px;
+    font-size: 35px;
+    border: solid 1px black;
+}
+
+nav a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+
+.main-footer {
+    flex: 1;
+}
+
+footer {
+    background-color: #1D1D1D;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    color: #777;
+}
+
+.social-media a{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
